@@ -1,0 +1,186 @@
+/* General */
+html,body{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+/* Navbar */
+nav {
+    height: 10vh;
+    padding: 0.75rem 2rem;
+    background-color: rgba(45, 45, 45, 1);
+
+    color: white;
+}
+
+nav a.nav--cult{
+    font-size: 2rem;
+    font-family: 'Moon Dance';
+    text-decoration: none;
+    color: white;
+}
+
+nav ul.nav--it{
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+
+    padding: 0;
+    margin: 0;
+}
+
+nav ul.nav--it li{
+    list-style: none;
+    padding: 0rem 1.5rem;
+}
+
+nav ul.nav--it li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+
+nav .nav--items{
+    position: relative;
+}
+
+nav .nav--items::after{
+    content: "";
+    position: absolute; 
+    background-color: gold;
+    height: 2px;
+    border-radius: 15%;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+nav .nav--items:hover::after{
+    width: 100%;
+}
+
+/* Content */
+.content{
+    margin-top: 5vh;
+    padding: 0 5rem;
+    width: 100%;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Poppins';
+    text-align: center;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 2rem;
+    font-family: 'Poppins';
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+h1.next{
+    margin-top: 1rem;
+}
+
+.cult--img.landing{
+    width: 70%;
+    height: auto;
+
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.sub--titl{
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-left: 15%;
+    margin-top: 1rem;
+}
+
+.cult--para{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-align: justify;
+
+    width: 65%;
+    margin-bottom: 1rem;
+}
+
+ .cult--img.cont{
+    width: 50%;
+    height: auto;
+
+    border-radius: 1rem;
+    margin: 1.5rem 0;
+}
+
+ul.saras{
+    margin: 0;
+}
+
+/* About */
+
+.about{
+    background-color: rgba(108, 108, 108, 1);
+    padding-bottom: 5rem;
+}
+
+img.writer{
+    width: 20rem;
+    border-radius: 100%;
+
+    margin: 3rem 0;
+}
+
+h1.h1about{
+    font-size: 2.5rem;
+}
+
+h3.h3about{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h4.h4about{
+    font-size: 1rem;
+    color: white;
+}
+
+h4.h4about.w{
+    color: black;
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+}
+
+.about--para{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-align: justify;
+
+    width: 45%;
+    margin-bottom: 1rem;
+}
+
+
+/* Footer */
+footer{
+    height: 5rem;
+    background-color: rgba(45, 45, 45, 1);
+}
+
+span.name{
+    font-weight: 400;
+}
+
+h4.footer{
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+
+    margin: 0;
+}
